@@ -1,0 +1,95 @@
+.formulario__entrada--usuario{
+    display: flex;
+    flex-direction: column;
+    width: 443px;
+    height: 627px;
+    background-color: #fff;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.entrada__usuario-dados{
+    display: flex;
+    flex-direction: column;
+}
+
+.entrada__usuario-topo{
+    margin: 45px 0;
+}
+
+.entrada__usuario-dados{
+    margin: 0 0 45px 0;
+}
+
+.entrada__usuario--h2{
+    font-family: 'Poppins';
+}
+
+.entrada__usuario--p{
+    font-family: 'inter';
+    color: #8B8D97;
+}
+
+#img__user { 
+    width: 375px;
+    height: 42px;
+    background: rgba(239, 241, 249, 0.6);   
+    background-image: url("./assets/Message.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 2em;
+    margin-bottom: 10px;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  #img__pw {    
+    width: 375px;
+    height: 42px;
+    background: rgba(239, 241, 249, 0.6);
+    background-image: url("./assets/Lock.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 2em;
+    border: 0;
+    padding: 8px 16px;
+  } 
+
+  .usuario__dados--eye{
+    position: relative;
+    left: 350px;
+    bottom: 40px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .usuario__dados--a{
+    text-align: right;
+    gap: 10px;
+    font-family: 'inter';
+    color: #5570F1;
+  }
+
+  .usuario__login--p{
+    margin-bottom: 38px;
+    font-family: 'inter';
+    color: #8B8D97;
+  }
+
+  a{
+    text-decoration: none;
+    color: #5570F1;
+  }
+
+  button{
+    width: 180px;
+    height: 58px;
+    padding: 15px 16px;
+    background: #5570F1;
+    border-radius: 12px;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'inter';
+  }
