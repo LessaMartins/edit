@@ -48,10 +48,6 @@ main {
   min-height: 400px;
 }
 
-.module:hover {
-  background-color: #5570F1;
-}
-
 .col-1 {
   width: 8.3333333333%;
 }
@@ -444,11 +440,6 @@ aside {
   color: #fff;
 }
 
-.menu__sidebar--btn:hover {
-  background-color: #5570F1;
-  color: #fff;
-}
-
 /*----bottom----*/
 .sidebar__lastbtns {
   display: flex;
@@ -516,11 +507,6 @@ aside {
   display: flex;
   margin: 10px 0;
   color: #CC5F5F;
-}
-
-.sidebar__btn:hover {
-  background-color: #5570F1;
-  color: #fff;
 }
 
 body {
