@@ -1,0 +1,125 @@
+aside {
+    width: 290px;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+}
+
+.sidebar__header--tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin: 28px 138px 50px 42px;
+}
+
+.sidebar__menu--dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 120px;
+}
+
+.menu__sidebar--btn {
+    width: 233px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding:16px, 20px, 16px, 20px;
+    background-color: transparent;
+    color: gray;
+    border: 0;
+    font-family: 'Inter';
+
+}
+
+.btn__dashboard{
+    background-color: #5570F1;
+    color: #fff;
+}
+
+.menu__sidebar--btn:hover {
+    background-color: #5570F1;
+    color: #fff;
+}
+
+/*----bottom----*/
+
+.sidebar__lastbtns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar__btn--contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar__btn {
+    width: 233px;
+    height: 36px;
+    border: 0;
+    border-radius: 10px;
+    background-color: transparent;
+    color: gray;
+    text-align: left;
+    padding:16px, 20px, 16px, 20px;
+    align-items: center;
+    gap: 5px;
+}
+
+.sidebar__btn--span{
+    display: flex;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #FFCC91;
+    background-color: #FFCC91;
+    color: black;
+    border-radius: 50%;
+}
+
+.btn__contact--headphones{
+    display: flex;
+    background-color: #5E6366 ;
+    color: #1C1D22;
+    margin-bottom: 10px;
+}
+
+
+
+.btn__gift--p {
+    font-size: 10px;
+}
+
+.btn__gift--img {
+    margin-left: 10px;
+}
+
+.btn--gift {
+    height: 75px;
+}
+
+.btn--gift {
+    height: 75px;
+    background-color: #FFCC91;
+    color: #1C1D22;
+}
+
+.btn__logout{
+    display: flex;
+    margin: 10px 0;
+    color: #CC5F5F;
+}
+
+.sidebar__btn:hover {
+    background-color: #5570F1;
+    color: #fff;
+}

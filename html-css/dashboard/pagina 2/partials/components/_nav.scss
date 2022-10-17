@@ -1,0 +1,18 @@
+nav{
+    display: flex;
+    background-color: #fff;
+    height: 70px;
+    width: 100%;  
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__h2{
+    display: flex;
+    margin-left: 10px;
+  }
+  
+  .navbar__img{
+      display: flex;
+      margin-right: 10px;
+      gap: 5px;
+  }
