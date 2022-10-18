@@ -1,0 +1,351 @@
+body{
+    width: 100%;
+    margin: 0;
+    
+}
+
+/*-------------HEADER-----------------*/
+
+.header-nav{
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px black solid;
+}
+
+.header-nav_ancora{
+   display: none;
+}
+
+.header-nav_logo{
+  height: 20px;
+  width: 20px;
+  border-radius: 25px;
+}
+
+.header-nav_logotipo{
+    position: relative;
+    bottom: 7px;
+    right: 7px;
+}
+
+/*--------------MAKE YOUR WEBSITE-----------------------*/
+
+
+
+.feature_geral_makeweb{
+    height: 100%;
+    width: 100%;
+}
+
+.feature_geral_makeweb_titulo{
+    font-size: 55px;
+}
+
+.feature_geral_makeweb_paragrafo{
+    width: 90%;
+    font-size: 22px;
+    margin-left: 30px;
+ }
+ 
+ .feature_geral_makeweb_paragrafo_br{
+     display: none;
+ }
+
+.feature_geral_makeweb_btnset{
+    font-size: 15px;
+    padding: 10px;
+    left: -70px;
+    top: 8px;
+    position: relative;
+    z-index: 1;
+    border-radius: 2px;
+    border: 0;
+    background-color: #0064DA;
+    color: #fff;
+}
+
+.feature_geral_makeweb_btnlearn{
+    font-size: 15px;
+    padding: 8.2px;
+    right: -70px;
+    top: -30px;
+    position: relative;
+    z-index: 1;
+    background-color: black;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.feature_geral_makeweb_video{
+    width: 95%;
+    border-radius: 4px;
+}
+
+.feature_geral_makeweb_btnvideo{
+    position: relative;
+    bottom: 30px;
+    font-size: 15px;
+    padding: 8.2px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #0064DA;
+    color: #fff;
+}
+
+.feature_geral_makeweb_btnfixo{
+    right: 20px;
+    top: 160px;
+}
+
+/*----------------HOW SIMPLE WORKS-----------------------*/
+
+.vertical_line{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    margin-top: 70px;
+}
+
+.vertical_line::before{
+   width: 1px;
+   height: 100px;
+   background-color: black;
+   content: "";
+   position: absolute;
+   bottom: -10px;
+   
+}
+
+
+.feature_geral_simpleworks{
+    height: 620px;
+    width: 100%;
+}
+
+.feature_geral_simpleworks_titulo{
+    font-size: 37px;
+}
+
+.feature_geral_simpleworks_paragrafo{
+    font-size: 28px;
+    padding: 0 20px;
+}
+
+.feature_geral_simpleworks_paragrafo_br{
+    display: none;
+}
+
+.feature_geral_simpleworks_img{
+    height: 300px;
+    width: 95%;
+}
+
+/*----------------EXPLORE THE SOLUTIONS-----------------------*/
+
+.feature_geral_exploresolutions{
+    height: 950px;
+    width: 100%;
+}
+
+.feature_geral_exploresolutions_titulo{
+    font-size: 37px;
+}
+
+.feature_geral_exploresolutions_paragrafo{
+    font-size: 28px;
+    padding: 0 20px;
+}
+
+.feature_geral_exploresolutions_card_paragrafo{
+    font-size: 10px;
+}
+
+.feature_geral_exploresolutions_cards{
+    width: 100%;
+    display: flex;
+    
+}
+
+.feature_geral_exploresolutions_card_principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px 0 0 5px;
+
+}
+
+.feature_geral_exploresolutions_card_principalfila2{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 0 5px 5px 0;
+}
+
+.feature_geral_exploresolutions_card{
+   width: 200px;
+   height: 175px;
+}
+
+.feature_geral_exploresolutions_card_circle{
+    left: 75px;
+}
+
+/*----------------THE MOST INNOVATIVE BUSINESSES CHOOSE SIMPLE-----------------------*/
+
+.feature_geral_mostin{
+    height: 100%;
+    width: 100%;
+}
+
+.feature_geral_mostin_titulo{
+    font-size: 40px;
+    text-align: center;
+}
+
+/*----CARD----*/
+
+.feature_geral_mostin_cards{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.feature_geral_mostin_card{
+    width: 225px;
+    height: 270px;
+    
+}
+
+.feature_geral_mostin_card_top{
+    width: 225px;
+    height: 150px;
+}
+
+
+.feature_geral_mostin_card_feature_paragrafo{
+    font-size: 12px;
+}
+
+.feature_geral_mostin_card_feature_img{
+    height: 30px;
+    width: 30px;
+}
+
+.feature_geral_mostin_card_feature_span{
+    font-size: small;
+     bottom: 10px;
+}
+
+/*----BLUE-BAR----*/
+
+.feature_geral_mostin_bluebar{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feature_geral_mostin_bluebar_h1{
+    font-size: 40px;
+}
+
+.feature_geral_mostin_bluebar_btn{
+    width: 108px;
+    height: 33px;
+    position: relative;
+    bottom: 70px;
+    border: 0;
+    background-color: #fff;
+    color: #0064DA;
+    border-radius: 3px;
+    padding: 8px 16px;
+}
+
+
+/*-------BORDER--------*/
+
+.feature_geral_border{
+    margin-top: 20px;
+    border-bottom: 1px black solid;
+}
+
+/*-----------FOOTER-----------*/
+
+.footer_geral_principal{
+    margin: 0;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer_geral_principal_subscribe_paragrafo{
+    position: relative;
+    left: 150px;
+    bottom: 40px;
+    font-size: 20px;
+}
+
+.footer_geral_principal_subscribe_input{
+    position: relative;
+    left: -7px;
+    bottom: 40px;
+    font-size: 15px;
+    padding: 7px;
+    width: 250px;
+}
+
+.footer_geral_principal_subscribe_btn{
+    position: relative;
+    left: -7px;
+    bottom: 40px;
+    font-size: 15px;
+    padding: 7px;
+    width: 105px;
+    background-color: black;
+    color: #fff;
+}
+
+.footer_geral_principal_subscribe_paragra{
+    position: relative;
+    bottom: 15px;
+    right: 12px;
+    margin: 0;
+}
+
+.footer_geral_principa{
+    text-align: center;
+}
+
+.footer_geral_principal_products{
+    position: relative;
+    bottom: 80px;
+    left: 40px;
+    text-align: center;
+}
+
+.footer_geral_principal_products_ancora{
+    position: relative;
+    top: 20px;
+}
+
+.footer_geral_principal_Resources{
+    position: relative;
+    bottom: 80px;
+    right: 40px;
+    text-align: center;
+}
+
+.footer_geral_principal_Resources_ancora{
+    position: relative;
+    top: 20px;
+}
+
+.footer_geral_principal_razely{
+    position: relative;
+    bottom: 65px;
+}
