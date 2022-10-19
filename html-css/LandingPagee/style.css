@@ -373,7 +373,7 @@ li {
 .feature_geral_exploresolutions_card_principal{
     width: 100%;
     display:flex ;
-    background-color: #A6A8B1;
+    background-color: #F5F5F5;
     justify-content: center;
     border-radius: 5px 5px 0 0;
 
@@ -381,9 +381,9 @@ li {
 
 
 .feature_geral_exploresolutions_card_principalfila2{
-    width: 100%;
+    width: 1500px;
     display: flex;
-    background-color: #A6A8B1;
+    background-color: #F5F5F5;
     justify-content: center;
     border-radius: 0 0 5px 5px;
 }
